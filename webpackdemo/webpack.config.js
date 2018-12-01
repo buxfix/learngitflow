@@ -8,7 +8,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            title: 'FuckUp Management'
+            title: 'BFA DemoPage'
         })
     ],
     output: {
