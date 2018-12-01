@@ -1,0 +1,4 @@
+# Ignore folder named 'cache'
+./webpackdemo/node_modules/.cache/
+webpackdemo/node_modules/.cache/
+.cache
