@@ -5,7 +5,7 @@ function component() {
     let element = document.createElement('div');
     let btn = document.createElement('button');    
     btn.innerHTML = 'Click me &amp; check console';
-    btn.onClick = printMe;
+    btn.onclick = printMe;
     element.appendChild(btn);
     return element;
 }
