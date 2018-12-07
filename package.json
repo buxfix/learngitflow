@@ -14,7 +14,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/buxfix/learngitflow.git"
+    "url": "git+https://github.com/buxfix/learngitflow.git"
   },
   "dependencies": {
     "webpack": "^4.27.1"
@@ -39,5 +39,10 @@
     "webpack-cli": "^3.1.2",
     "webpack-dev-server": "^3.1.10",
     "webpack-merge": "^4.1.4"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/buxfix/learngitflow/issues"
+  },
+  "homepage": "https://github.com/buxfix/learngitflow#readme",
+  "main": "webpack.config.js"
 }
