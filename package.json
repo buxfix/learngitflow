@@ -1,5 +1,5 @@
 {
-  "name": "gitflow-test",
+  "name": "learngitflow",
   "version": "1.0.0",
   "description": "webpack test",
   "build": "webpack",
