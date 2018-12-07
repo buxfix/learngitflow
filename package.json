@@ -16,5 +16,28 @@
     "type": "git",
     "url": "https://github.com/buxfix/learngitflow.git"
   },
-  "dependencies": {}
+  "dependencies": {
+    "webpack": "^4.27.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.4",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.2.0",
+    "clean-webpack-plugin": "^1.0.0",
+    "coffeescript": "^2.3.2",
+    "css-loader": "^2.0.0",
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-import": "^2.14.0",
+    "file-loader": "^2.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mocha": "^5.2.0",
+    "style-loader": "^0.23.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10",
+    "webpack-merge": "^4.1.4"
+  }
 }
