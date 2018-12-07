@@ -1,20 +1,20 @@
 {
   "name": "gitflow-test",
   "version": "1.0.0",
-  "description": "webpack test", 
-  "build":"webpack",
+  "description": "webpack test",
+  "build": "webpack",
   "scripts": {
-    "start": "opn http://127.0.0.1:8080 && http-server ./"
-  },  
-  "keywords": ["webpack"],
+    "build": "webpack --mode -p",
+    "watch": "webpack --watch"
+  },
+  "keywords": [
+    "webpack"
+  ],
   "author": "buxfix",
-  "license": "ISC", 
+  "license": "ISC",
   "repository": {
     "type": "git",
     "url": "https://github.com/buxfix/learngitflow.git"
   },
-  "scripts": {   
-    "build": "webpack --mode -p",
-    "watch": "webpack --watch"    
-  }
+  "dependencies": {}
 }
